@@ -1,0 +1,87 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-container {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 524px;
+}
+
+/* Styles for Task Manager heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Styles for AddTaskForm */
+.add-task-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.priority-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.add-button {
+  background-color: #4caf50; /* Nice contrasting color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Styles for TaskList */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styles for TaskItem */
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-title {
+  flex-grow: 1;
+}
+
+.priority-dropdown {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
